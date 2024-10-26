@@ -160,6 +160,13 @@
     .contacts {
       font-size: 30px;
     }
+
+   button[type="button"]{
+    background-color: pink;
+    height: 20%;
+    width: 40%;
+
+   }
   
     .container2 {
       width: 100%;
