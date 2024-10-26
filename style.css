@@ -32,13 +32,12 @@
     margin-left: 0px;
   }
 
-button[type="button"]{
+  button[type="button"]{
     background-color: pink;
-    height: 10%;
+    height: 5%;
     width: 10%;
 
    }
-  
   
   .name {
     font-size: 150px;
@@ -100,7 +99,6 @@ button[type="button"]{
     margin-top: -580px;
   }
 
-/* Mobile view */
 @media screen and (max-width: 660px) {
   .container {
     position: relative;
@@ -114,6 +112,22 @@ button[type="button"]{
     left: 0;
     margin-left:0 auto;
     padding-top: 10px;
+  }
+
+  
+  .subjects {
+    width: 60%;
+    height: 20%;
+    display: block;
+    position: absolute;
+    margin-top: -300px;
+  
+  }
+
+  .year{
+    font-size: 30px;
+    margin-left: -30%;
+
   }
 
   .name {
@@ -153,7 +167,6 @@ button[type="button"]{
   }
 }
 
-  /* Tablet view */
   @media screen and (max-width: 1024px) {
     .logo {
       font-size: 30px;
@@ -170,6 +183,7 @@ button[type="button"]{
     }
 
    
+  
     .container2 {
       width: 100%;
       height: auto;
