@@ -31,6 +31,14 @@
     margin-top: 100px;
     margin-left: 0px;
   }
+
+button[type="button"]{
+    background-color: pink;
+    height: 10%;
+    width: 20%;
+
+   }
+  
   
   .name {
     font-size: 150px;
@@ -161,13 +169,7 @@
       font-size: 30px;
     }
 
-   button[type="button"]{
-    background-color: pink;
-    height: 20%;
-    width: 40%;
-
-   }
-  
+   
     .container2 {
       width: 100%;
       height: auto;
